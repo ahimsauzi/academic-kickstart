@@ -28,7 +28,7 @@ jobs:
             git config user.name "ahimsauzi"
             git add .
             git commit --allow-empty -m "Trigger hugo deployment"
-            git push -q git@github.com:ahimsauzi/ahimsauzi.github.io.git master
+            git push -q git@github.com:ahimsauzi/academic-kickstart.git master
 
 workflows:
   version: 2
